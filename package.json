@@ -1,19 +1,16 @@
 {
-  "name": "dasher",
-  "version": "1.1.1",
-  "description": "A simple way to bridge your Amazon Dash buttons to HTTP services.",
+  "name": "dasher-toggle",
+  "version": "1.1.1-1.0",
+  "description": "A simple way to bridge your Amazon Dash buttons to HTTP services, now with states",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maddox/dasher"
+    "url": "https://github.com/ServError/dasher-toggle"
   },
-  "author": "Jon Maddox <jon@jonmaddox.com>",
+  "author": "Jon Maddox <jon@jonmaddox.com> , Erik Servili <servili007@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/maddox/dasher/issues"
-  },
   "dependencies": {
     "node-dash-button": "^0.3.0",
     "request": "^2.60.0"
